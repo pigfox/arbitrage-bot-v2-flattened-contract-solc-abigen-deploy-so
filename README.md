@@ -60,7 +60,7 @@ GetQ result: 88888999999
 6. In this case the contract was deployed on the Sepolia chain with the Go code at the address `0x7ede1c76aD55d8c67c8a9E3786C63e00711e04a2`, then `sol/Base.sol` was verified with Compiler Version: v0.8.26+commit.8a97fa7a, Optimization Enabled: 1, Runs: 200.
 Here's the problem, the Go code fails to verify the contract that can be verified on Etherscan using the Etherscan verification process.
 https://sepolia.etherscan.io/address/0x7ede1c76aD55d8c67c8a9E3786C63e00711e04a2#code
-7. When you replicate you will get a different address, that is the only differnce form this example.
+7. When you replicate you will get a different address, that is the only differnce from this example.
 8. Can you find the error?
 
 
