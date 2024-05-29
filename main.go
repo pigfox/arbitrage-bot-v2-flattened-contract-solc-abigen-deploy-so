@@ -27,7 +27,5 @@ func main() {
 	compile.Run(contractName)
 	deploy.Run()
 	verify.Run(contractName)
-	if contractName == "Base" {
-		cbase.Run()
-	}
+	cbase.Run()
 }
